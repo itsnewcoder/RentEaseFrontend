@@ -22,7 +22,7 @@ import AddProperty from './pages/AddProperty.js';
 import UpdateProperty from './pages/UpdateProperty.js';
 import { LandlordProvider } from './landlordContext.js';
 
-axios.defaults.baseURL = 'http://127.0.0.1:4000';
+axios.defaults.baseURL = 'https://renteasebackend.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
